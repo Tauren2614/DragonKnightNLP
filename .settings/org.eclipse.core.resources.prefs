@@ -1,2 +1,4 @@
 eclipse.preferences.version=1
 encoding//src/dragonknightnlp/__init__.py=utf-8
+encoding//src/dragonknightnlp/wordsplit/CRFModel.py=utf-8
+encoding//src/dragonknightnlp/wordsplit/__init__.py=utf-8
