@@ -232,8 +232,8 @@ if __name__ == '__main__':
     train_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                          'data.txt')
     mode = CharacterBasedGenerativeModel()
-    mode.train(train_path)
-    mode.save(data_path)
+    #mode.train(train_path)
+    #mode.save(data_path)
     mode.load(data_path)
     words = mode.cut(u'工信处女干事每月经过下属科室都要亲口交代二十四口交换机等技术性器件的安装工作')
     for sr in words:
